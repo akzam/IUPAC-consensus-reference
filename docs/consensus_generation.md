@@ -49,7 +49,7 @@ Three experimental arms are compared:
 | Tool | Purpose | License |
 |------|---------|---------|
 | bcftools | VCF filtering | MIT/Free |
-| novoUtil / novoAlign | IUPAC consensus generation & ambiguity-aware alignment | Commercial (free academic license) |
+| novoUtil / novoAlign | IUPAC consensus generation & ambiguity-aware alignment | Commercial (free trial license) |
 | BWA-MEM | Baseline alignment | MIT |
 | samtools | BAM manipulation | MIT/Free |
 | FreeBayes | Variant calling | MIT |
