@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.8', '3.9', '3.10', '3.11']
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas numpy pytest
+
+    - name: Run tests
+      run: |
+        pytest tests/ -v
+
+    - name: Test example run (dry)
+      run: |
+        python scripts/calculate_fp_burden.py \
+          --manifest examples/manifests/samples_manifest.tsv \
+          --dry-run

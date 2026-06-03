@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the article and the software itself."
+type: software
+title: "IUPAC Consensus Reference for Variant Calling"
+authors:
+  - family-names: "Saidin"
+    given-names: "Akzam"
+  - family-names: "Ricos"
+    given-names: "Michael G."
+  - family-names: "Dibbens"
+    given-names: "Leanne M."
+repository-code: "https://github.com/akzam/IUPAC-consensus-reference"
+license: MIT
+version: 5.3.7
+date-released: 2026-05-23
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Saidin"
+      given-names: "Akzam"
+    - family-names: "Ricos"
+      given-names: "Michael G."
+    - family-names: "Dibbens"
+      given-names: "Leanne M."
+  title: "IUPAC consensus references improve variant detection in clinically challenging genomic regions"
+  journal: "Cell Genomics"
+  year: 2026
