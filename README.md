@@ -86,15 +86,13 @@ See [`docs/usage_manual.md`](docs/usage_manual.md) for full options.
 
 If you use this framework, please cite:
 
-> Saidin A, Ricos MG, Dibbens LM. *IUPAC consensus references improve variant detection in clinically challenging genomic regions.* Cell Genomics. 2026.
+> Saidin A, Ricos MG, Dibbens LM. *IUPAC consensus references improve variant detection in clinically challenging genomic regions.* 2026.
 
 ```bibtex
 @article{saidin2026iupac,
   title={IUPAC consensus references improve variant detection in clinically challenging genomic regions},
   author={Saidin, Akzam and Ricos, Michael G. and Dibbens, Leanne M.},
-  journal={Cell Genomics},
   year={2026},
-  publisher={Elsevier}
 }
 ```
 
